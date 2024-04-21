@@ -201,7 +201,7 @@ export const crearDirecciones = (data) => {
     lat: direccion.ubicacion.lat,
     lon: direccion.ubicacion.lon,
     url : `https://maps.google.com?q=${direccion.ubicacion.lat},${direccion.ubicacion.lon}`,
-    urlOSM:`http://www.openstreetmap.org/export/embed.html?bbox=${direccion.ubicacion.lon},${direccion.ubicacion.lat}&layer=mapquest&marker=${direccion.ubicacion.lat},${direccion.ubicacion.lon}`,
+    urlOSM:`https://www.openstreetmap.org/export/embed.html?bbox=${direccion.ubicacion.lon},${direccion.ubicacion.lat}&layer=mapquest&marker=${direccion.ubicacion.lat},${direccion.ubicacion.lon}`,
     
 
   }));

@@ -23,7 +23,11 @@ const Aviso = () => {
       <FaExclamationCircle color='#e74c3c' fontSize='24px'/>  
       <p>Este sitio es un prototipo de código y diseño para aplicar a diferentes proyectos, si bien la información proviene del programa de Datos Abiertos de la Ciudad de Buenos Aires, la misma puede no estar actualizada.</p>
       <p>Muchas gracias</p>
-      <button onClick={()=>setVisto(true)}
+      <button 
+        style={{
+          backgroundColor:'black'
+        }}
+      onClick={()=>setVisto(true)}
       >Entendido <MdOutlineDoneOutline color='lightgreen'/> </button>
 
 

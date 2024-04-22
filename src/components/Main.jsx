@@ -117,7 +117,7 @@ const Main = () => {
       
       try {
           
-          const datos = await fetch('/data/farmacias.json');
+          const datos = await fetch(u);
           const response = await datos.json();  
           console.log(response);
           const rta = format(response);

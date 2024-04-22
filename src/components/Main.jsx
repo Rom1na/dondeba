@@ -4,7 +4,7 @@ import { sel } from '../data/datos'
 import { formatearCajeros,formatearFarmacias,formatearSubte,formatearSede,formatearEstaciones, formatearGastro, formatearCultura } from '../util/Filters'
 import PorDireccion from './PorDireccion'
 import { useDContext } from '../context/Cntxt'
- 
+
 
 const Main = () => {
     
@@ -117,7 +117,7 @@ const Main = () => {
       
       try {
           
-          const datos = await fetch(u);
+          const datos = await fetch('/data/farmacias.json');
           const response = await datos.json();  
           console.log(response);
           const rta = format(response);

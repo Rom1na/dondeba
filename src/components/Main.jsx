@@ -4,7 +4,7 @@ import { sel } from '../data/datos'
 import { formatearCajeros,formatearFarmacias,formatearSubte,formatearSede,formatearEstaciones, formatearGastro, formatearCultura } from '../util/Filters'
 import PorDireccion from './PorDireccion'
 import { useDContext } from '../context/Cntxt'
-
+ 
 
 const Main = () => {
     
@@ -230,7 +230,8 @@ const Main = () => {
                {bar != undefined && ubiForm.q != undefined && <button
                 style={{
                  marginRight:"5px",
-                 fontSize:"14px"}         
+                 fontSize:"14px"}
+
                }
                onClick={()=>fetchJson(ubiForm.ubi,ubiForm.formato,bar)}
                >Buscar</button>}

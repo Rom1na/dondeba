@@ -117,7 +117,14 @@ const Main = () => {
       
       try {
           
-          const datos = await fetch(u);
+          const datos = await fetch(u,{
+            headers:{
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            }
+          }
+        );
+
           const response = await datos.json();  
           console.log(response);
           const rta = format(response);

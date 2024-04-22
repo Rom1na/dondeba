@@ -7,13 +7,13 @@ export const sel = {
     "Villa Luro","Villa Ortuzar","Villa Pueyrredon","Villa Real","Villa Riachuelo","Villa Santa Rita","Villa Soldati","Villa Urquiza"],
 
     "ubicaciones":{
-        "farmacias":"/data/farmacias.json",
-        "cajeros":"src/data/cajerosautomaticos.json",
-        "estaciones":"src/data/estaciones.json",
-        "bocasdesubte":"src/data/bocasdesubte.json",
-        "sedes":"src/data/sedes.json",
-        "ofertagastronomica":"src/data/ofertagastronomica.json",
-        "espaciosculturales":"src/data/espaciosculturales.json"
+        "farmacias":"./data/farmacias.json",
+        "cajeros":"./data/cajerosautomaticos.json",
+        "estaciones":"./data/estaciones.json",
+        "bocasdesubte":"./data/bocasdesubte.json",
+        "sedes":"./data/sedes.json",
+        "ofertagastronomica":"./data/ofertagastronomica.json",
+        "espaciosculturales":"./data/espaciosculturales.json"
 
         
 

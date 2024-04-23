@@ -4,7 +4,7 @@ import { sel } from '../data/datos'
 import { formatearCajeros,formatearFarmacias,formatearSubte,formatearSede,formatearEstaciones, formatearGastro, formatearCultura } from '../util/Filters'
 import PorDireccion from './PorDireccion'
 import { useDContext } from '../context/Cntxt'
-
+import farmacias from '../data/farmacias.json'
 
 const Main = () => {
     
@@ -173,7 +173,7 @@ const Main = () => {
                  }
                onChange={manejarSelectTipo}> 
                  
-                         <option selected>¿Qué buscás?</option>     
+                         <option selected>¿Qué buscás?{farmacias[0].id}</option>     
                          {
                              tipos?.map((valor)=>(
                                <option key={valor} value={valor}>

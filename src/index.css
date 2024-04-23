@@ -47,7 +47,7 @@ button,select {
   font-weight: 500;
   font-family: inherit;
   color: #ffffff;
-  background-color: #1a1a1a;
+  background-color: black;
   cursor: pointer;
   transition: border-color 0.25s;
 }

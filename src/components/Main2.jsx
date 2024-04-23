@@ -123,7 +123,7 @@ const Main = () => {
               'Accept': 'application/json'
             }
           }
-        );
+        )
 
           const response = await datos.json();  
           console.log(response);

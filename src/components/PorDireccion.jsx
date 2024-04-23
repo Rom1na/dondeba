@@ -75,7 +75,12 @@ const {data,ubiForm,direcciones,setData,form,setUbiForm,setDirecciones,setForm}=
         
       </div>    
     <br></br>
-   { form.calle != "" &&  ubiForm.q != undefined &&<button className="sigin-btn" type='button'
+   { form.calle != "" &&  ubiForm.q != undefined &&<button 
+     style={{
+      backgroundColor:'black'
+      }}
+     
+     className="sigin-btn" type='button'
      onClick={()=>traerResultado(form.calle,form.altura,form.localidad,form.provincia,setDirecciones,setDireccionSelect)}>Consultar opciones de dirección</button> }
 
      </form>

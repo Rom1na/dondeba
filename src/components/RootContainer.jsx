@@ -1,5 +1,5 @@
 import React from 'react'
-import Main from './Main'
+import Main from './Main2'
 import Contenedor from './Contenedor'
 import { useDContext } from '../context/Cntxt'
 import { SlLocationPin, } from "react-icons/sl"

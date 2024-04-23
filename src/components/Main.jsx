@@ -117,7 +117,7 @@ const Main = () => {
       
       try {
           
-          const datos = await fetch(u,{
+          const datos = await fetch('./farmacias.json',{
             headers:{
               'Content-Type': 'application/json',
               'Accept': 'application/json'

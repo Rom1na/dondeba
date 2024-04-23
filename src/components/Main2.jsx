@@ -15,7 +15,7 @@ const Main = () => {
     
     const barrios = sel.barrios;
     const tipos = sel.tipos;
-    const texto = farmacias[0].barrio;
+    
     
     
     
@@ -173,7 +173,7 @@ const Main = () => {
                  }
                onChange={manejarSelectTipo}> 
                  
-                         <option selected>¿Qué buscás?{texto}</option>     
+                         <option selected>¿Qué buscás?</option>     
                          {
                              tipos?.map((valor)=>(
                                <option key={valor} value={valor}>

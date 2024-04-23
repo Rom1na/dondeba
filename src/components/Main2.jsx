@@ -43,7 +43,7 @@ const Main = () => {
     function manejarSelectTipo(e){
       const r = e.target.value;
       let m;
-    
+      console.log('2',farmacias[0].barrio);
       switch (r){
         case "Farmacias":
            setUbiForm ({

@@ -126,8 +126,8 @@ const Main = () => {
         );
 
           const response = await datos.json();  
-          console.log(response.rta);
-          const rta = format(response.rta);
+          console.log(response);
+          const rta = format(response);
        //   console.log(rta[0]);
           //setData(rta);
        //   console.log(rta);

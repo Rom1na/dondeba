@@ -173,7 +173,7 @@ const Main = () => {
                  }
                onChange={manejarSelectTipo}> 
                  
-                         <option selected>¿Qué buscás?{farmacias[0].id}</option>     
+                         <option selected>¿Qué buscás?{farmacias[0].objeto}</option>     
                          {
                              tipos?.map((valor)=>(
                                <option key={valor} value={valor}>

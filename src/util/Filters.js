@@ -12,7 +12,7 @@ export const formatearCajeros=(data)=>{
       orden : 0,
       adicional :`Terminales: ${c.terminales} (Red ${c.red})`,
       url : `https://maps.google.com?q=${c.lat},${c.long}`,
-      urlOSM:`http://www.openstreetmap.org/export/embed.html?bbox=${c.long},${c.lat}&layer=mapquest&marker=${c.lat},${c.long}`,
+      urlOSM:`https://www.openstreetmap.org/export/embed.html?bbox=${c.long},${c.lat}&layer=mapquest&marker=${c.lat},${c.long}`,
 
 
   }));
@@ -39,7 +39,7 @@ export const formatearFarmacias=(data)=>{
       orden : 0,
       adicional :`Teléfono: ${c.telefono}`,
       url : `https://maps.google.com?q=${c.lat},${c.long}`,
-      urlOSM:`http://www.openstreetmap.org/export/embed.html?bbox=${c.long},${c.lat}&layer=mapquest&marker=${c.lat},${c.long}`,
+      urlOSM:`https://www.openstreetmap.org/export/embed.html?bbox=${c.long},${c.lat}&layer=mapquest&marker=${c.lat},${c.long}`,
 
 
   }));
@@ -66,7 +66,7 @@ export const formatearSubte=(data)=>{
       orden : 0,
       adicional :`${c.observacio} - Destino: ${c.destino_bo}`,
       url : `https://maps.google.com?q=${c.lat},${c.long}`,
-      urlOSM:`http://www.openstreetmap.org/export/embed.html?bbox=${c.long},${c.lat}&layer=mapquest&marker=${c.lat},${c.long}`,
+      urlOSM:`https://www.openstreetmap.org/export/embed.html?bbox=${c.long},${c.lat}&layer=mapquest&marker=${c.lat},${c.long}`,
 
 
   }));
@@ -93,7 +93,7 @@ export const formatearSede=(data)=>{
       orden : 0,
       adicional :`Teléfono: ${c.telefono}`,
       url : `https://maps.google.com?q=${c.WKT.slice(25,42)},${c.WKT.slice(7,24)}`,
-      urlOSM:`http://www.openstreetmap.org/export/embed.html?bbox=${c.WKT.slice(7,24)},${c.WKT.slice(25,42)}&layer=mapquest&marker=${c.WKT.slice(25,42)},${c.WKT.slice(7,24)}`,
+      urlOSM:`https://www.openstreetmap.org/export/embed.html?bbox=${c.WKT.slice(7,24)},${c.WKT.slice(25,42)}&layer=mapquest&marker=${c.WKT.slice(25,42)},${c.WKT.slice(7,24)}`,
 
   }));
 
@@ -119,7 +119,7 @@ export const formatearEstaciones=(data)=>{
       orden : 0,
       adicional :`Tipo de combustibles: ${c.tipo_de_boca}`,
       url : `https://maps.google.com?q=${c.lat},${c.long}`,
-      urlOSM:`http://www.openstreetmap.org/export/embed.html?bbox=${c.long},${c.lat}&layer=mapquest&marker=${c.lat},${c.long}`,
+      urlOSM:`https://www.openstreetmap.org/export/embed.html?bbox=${c.long},${c.lat}&layer=mapquest&marker=${c.lat},${c.long}`,
 
 
   }));
@@ -146,7 +146,7 @@ export const formatearGastro=(data)=>{
       orden : 0,
       adicional :`${c.cocina} - Tel:${c.telefono} `,
       url : `https://maps.google.com?q=${c.lat},${c.long}`,
-      urlOSM:`http://www.openstreetmap.org/export/embed.html?bbox=${c.long},${c.lat}&layer=mapquest&marker=${c.lat},${c.long}`,
+      urlOSM:`https://www.openstreetmap.org/export/embed.html?bbox=${c.long},${c.lat}&layer=mapquest&marker=${c.lat},${c.long}`,
 
 
   }));
@@ -172,7 +172,7 @@ export const formatearCultura=(data)=>{
       orden : 0,
       adicional :`${c.SUBCATEGORIA}`,
       url : `https://maps.google.com?q=${c.LATITUD},${c.LONGITUD}`,
-      urlOSM:`http://www.openstreetmap.org/export/embed.html?bbox=${c.LONGITUD},${c.LATITUD}&layer=mapquest&marker=${c.LATITUD},${c.LONGITUD}`,
+      urlOSM:`https://www.openstreetmap.org/export/embed.html?bbox=${c.LONGITUD},${c.LATITUD}&layer=mapquest&marker=${c.LATITUD},${c.LONGITUD}`,
 
 
   }));

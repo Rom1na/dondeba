@@ -4,9 +4,13 @@ import { FaExclamationCircle } from "react-icons/fa";
 import { useDContext } from '../context/Cntxt'
 
 
-const Aviso = () => {
+const Popup = () => {
 
     const {setVisto}= useDContext();
+
+    
+
+
 
   return (
     <div
@@ -35,4 +39,4 @@ const Aviso = () => {
   )
 }
 
-export default Aviso
+export default Popup

@@ -3,7 +3,8 @@ import Card from './Card'
 import { useDContext } from '../context/Cntxt'
 import { useState } from 'react'
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
-import Aviso from './aviso'
+import Popup from './Popup'
+
 
 const Contenedor = () => {
 
@@ -55,7 +56,7 @@ const Contenedor = () => {
 
 <div>
 
- {!visto&&<Aviso/>}
+ {!visto&&<Popup/>}
 
 { !display&&<button
     style={{

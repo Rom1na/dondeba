@@ -189,7 +189,8 @@ const Contenedor = () => {
     
     style={{
       marginRight:"5px",
-      fontSize:"11px"}         
+      fontSize:"11px",
+      backgroundColor:"black" }         
     }
     onClick={disminucion}
 
@@ -198,7 +199,8 @@ const Contenedor = () => {
 { !(data.length <= pag.fin) &&<button
     style={{
       marginRight:"5px",
-      fontSize:"11px"}         
+      fontSize:"11px",
+      backgroundColor: "black"}         
     }
     onClick={aumento}
 

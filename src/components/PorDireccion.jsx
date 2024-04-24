@@ -50,6 +50,7 @@ const {data,ubiForm,direcciones,setData,form,setUbiForm,setDirecciones,setForm}=
    <div className="contenedor"> 
         <form className="form">
     <div className="header">O Ingresa una dirección:</div>
+   
     <br></br>
     <div className="inputs">
         <input
@@ -73,7 +74,9 @@ const {data,ubiForm,direcciones,setData,form,setUbiForm,setDirecciones,setForm}=
 
 
         
-      </div>    
+      </div>   
+      <p style={{fontSize: "11px"}}
+    >Los resultados están ordenados por cercanía a la dirección ingresada</p>  
     <br></br>
    { form.calle != "" &&  ubiForm.q != undefined &&<button 
      style={{

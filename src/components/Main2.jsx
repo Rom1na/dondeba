@@ -4,7 +4,7 @@ import { sel } from '../data/datos'
 import { formatearCajeros,formatearFarmacias,formatearSubte,formatearSede,formatearEstaciones, formatearGastro, formatearCultura } from '../util/Filters'
 import PorDireccion from './PorDireccion'
 import { useDContext } from '../context/Cntxt'
-import farmacias from '../data/farmacias.json'
+
 
 const Main = () => {
     
@@ -43,7 +43,7 @@ const Main = () => {
     function manejarSelectTipo(e){
       const r = e.target.value;
       let m;
-      console.log('2',farmacias[0].barrio);
+      
       switch (r){
         case "Farmacias":
            setUbiForm ({
@@ -126,13 +126,13 @@ const Main = () => {
         )
 
           const response = await datos.json();  
-          console.log(response);
+         // console.log(response);
           const rta = format(response);
        //   console.log(rta[0]);
           //setData(rta);
        //   console.log(rta);
           const rta2 = filtrarDataXBarrio(filt,rta);
-          console.log('2',rta2);
+       //   console.log('2',rta2);
           if (rta2.length === 0){
             alert (`No encontramos ${ubiForm.q} en ${ubiForm.dir}`)
             

@@ -76,7 +76,7 @@ const {data,ubiForm,direcciones,setData,form,setUbiForm,setDirecciones,setForm}=
         
       </div>   
       <p style={{fontSize: "11px", color: "red",fontWeight: "bold"}}
-    >Por el momento esta funcionalidad no esta disponible debido a la caida de la API del Servicio de Normalización de Datos Geográficos de Argentina, gracias por su comprensión
+    >Por el momento esta funcionalidad no esta disponible momentaneamente debido a la caida de la API del Servicio de Normalización de Datos Geográficos de Argentina, gracias por su comprensión
       
       
       {/* Los resultados están ordenados por cercanía a la dirección ingresada */}</p>  

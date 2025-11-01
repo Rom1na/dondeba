@@ -34,7 +34,7 @@ function App() {
     color: "white",
     
     width: "99%",
-    marginRight:"25px",
+ 
     margin :"5px",
     position:"fixed",
     bottom:"0",

@@ -75,8 +75,11 @@ const {data,ubiForm,direcciones,setData,form,setUbiForm,setDirecciones,setForm}=
 
         
       </div>   
-      <p style={{fontSize: "11px"}}
-    >Los resultados están ordenados por cercanía a la dirección ingresada</p>  
+      <p style={{fontSize: "11px", color: "red",fontWeight: "bold"}}
+    >Por el momento esta funcionalidad no esta disponible debido a la caida de la API del Servicio de Normalización de Datos Geográficos de Argentina, gracias por su comprensión
+      
+      
+      {/* Los resultados están ordenados por cercanía a la dirección ingresada */}</p>  
     <br></br>
    { form.calle != "" &&  ubiForm.q != undefined &&<button 
      style={{
@@ -84,7 +87,15 @@ const {data,ubiForm,direcciones,setData,form,setUbiForm,setDirecciones,setForm}=
       }}
      
      className="sigin-btn" type='button'
-     onClick={()=>traerResultado(form.calle,form.altura,form.localidad,form.provincia,setDirecciones,setDireccionSelect)}>Consultar opciones de dirección</button> }
+     onClick={()=>alert("Por el momento esta funcionalidad no esta disponible debido a la caida de la API del Servicio de Normalización de Datos Geográficos de Argentina, gracias por su comprensión")
+}
+   /*  { BLOQUEADO PORQUE NO ANDA LA API ()=>traerResultado(form.calle,form.altura,form.localidad,form.provincia,setDirecciones,setDireccionSelect) }
+      */
+     
+     
+     >Consultar opciones de dirección</button> 
+     
+     }
 
      </form>
 

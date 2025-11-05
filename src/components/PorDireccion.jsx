@@ -75,7 +75,7 @@ const {data,ubiForm,direcciones,setData,form,setUbiForm,setDirecciones,setForm}=
 
         
       </div>   
-      <p style={{fontSize: "11px", color: "red",fontWeight: "bold"}}
+      <p style={{fontSize: "11px"}}
     >
       
       
